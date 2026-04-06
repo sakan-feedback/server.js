@@ -19,7 +19,7 @@ app.get("/feedback", (req, res) => {
   res.json(feedbacks);
 });
 app.get("/", (req, res) => {
-  res.send("SAKAN Feedback System is Running ✅");
+  res.send("SAKAN Feedback System is Running✅");
 });
 app.listen(3000, () => {
   console.log("Server running on port 3000");
